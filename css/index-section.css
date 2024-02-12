@@ -1,0 +1,97 @@
+section {
+    margin: 0 5rem;
+}
+
+section h2 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+h1, h3, h4, .route, .article-link {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+section article h4, section article ul li {
+    margin: 0 2.2rem;
+}
+
+.article-link, .article-route {
+    font-weight: bold;
+}
+
+.article-route {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+article ul {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.article-discount p {
+    font-size: 1.5rem;
+    margin: 0 2.7rem;
+}
+
+.article-discount a {
+    margin: 0 2.7rem;
+}
+
+.figure-shield {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.article-nameGroup p {
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-nameGroup a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-nameGroup h1 a {
+    font-size: 5.5rem;
+}
+
+.article-space {
+    text-transform: capitalize;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    margin-bottom: 2rem;
+}
+
+.article-mail {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    .article-nameGroup p {
+        font-size: 2rem;
+    }
+    .article-nameGroup h1 a {
+        font-size: 2rem;
+    }
+    .article-space {
+        font-size: 1rem;
+        letter-spacing: 0.7rem;
+    }
+    .article-mail {
+        font-size: 1rem;
+    }
+}

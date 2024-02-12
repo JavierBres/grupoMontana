@@ -1,0 +1,34 @@
+.body-activities-old {
+    background: url(../images/fondo_old-activities.jpg);
+    background-size: cover;
+}
+
+.header-activities-old {
+    font-size: 2.5rem;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline solid 0.3rem;
+    margin-bottom: 7rem;
+}
+
+.section-activities-old ul li {
+    list-style: none;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-activities-old ul li a {
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .header-activities-old, .section-activities-old ul li {
+        font-size: 1.5rem;
+    }
+}
+
