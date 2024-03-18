@@ -1,11 +1,10 @@
 footer {
-    margin-top: 7rem;
-    margin-bottom: 4rem;
+    margin: 7vh 0 4vh;
 }
 
 footer p {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +12,9 @@ footer p {
 
 @media screen and (max-width: 800px) {
     footer p {
-        font-size: 1.3rem;
+        font-size: 3vw;
     }
 }
+
+
  
