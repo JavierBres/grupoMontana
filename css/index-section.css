@@ -1,13 +1,13 @@
 section {
-    margin: 0 5rem;
+    margin: 0 4vw;
 }
 
 section h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
-h1, h3, h4, .route, .article-link {
+h1, h3, h4, .article-route, .article-link {
     text-transform: uppercase;
     font-size: 2rem;
 }
@@ -21,11 +21,11 @@ section article h4, section article ul li {
 }
 
 .article-route {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 article ul {
@@ -42,7 +42,7 @@ article ul {
     margin: 0 2.7rem;
 }
 
-.figure-shield {
+figure {
     display: flex;
     justify-content: center;
     margin: 5rem 0;
@@ -50,7 +50,7 @@ article ul {
 
 .article-nameGroup p {
     text-transform: uppercase;
-    font-size: 5.5rem;
+    font-size: clamp(2rem, 5.5vw, 8rem);
     margin: 0;
     display: flex;
     align-items: center;
@@ -64,34 +64,20 @@ article ul {
 }
 
 .article-nameGroup h1 a {
-    font-size: 5.5rem;
+    font-size: clamp(1.8rem, 5vw, 20rem);
 }
 
 .article-space {
     text-transform: capitalize;
-    font-size: 3rem;
-    letter-spacing: 2rem;
+    font-size: clamp(1rem, 2.5vw, 5rem);
+    letter-spacing: clamp(0.7rem, 1.5vw, 3rem);
     margin-bottom: 2rem;
 }
 
 .article-mail {
     margin-bottom: 3rem;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 14rem);
     text-decoration: none;
 }
 
-@media screen and (max-width: 800px) {
-    .article-nameGroup p {
-        font-size: 2rem;
-    }
-    .article-nameGroup h1 a {
-        font-size: 2rem;
-    }
-    .article-space {
-        font-size: 1rem;
-        letter-spacing: 0.7rem;
-    }
-    .article-mail {
-        font-size: 1rem;
-    }
-}
+
