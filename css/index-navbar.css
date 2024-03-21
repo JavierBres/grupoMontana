@@ -8,13 +8,13 @@ nav ul {
     list-style: none;
     display: flex;
     text-align: center;
+    gap: 1.5rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: clamp(1rem, 2vw, 3rem);
-    margin: 0 1.5rem;
+    font-size: clamp(1.2rem, 2vw, 3rem);
     transition: all 0.4s;
 }
 
@@ -27,6 +27,8 @@ nav ul li a:hover {
 @media screen and (width <= 800px) {
     nav ul {
         flex-direction: column;
+        padding-left: 0;
+        gap: 0.3rem;
     }
 }
 
